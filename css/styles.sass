@@ -1,0 +1,85 @@
+$font: 'Roboto', sans-serif
+$title-font: 'Hind', sans-serif
+$red: #C44B4F
+$grey: #EBECEE
+
+body
+    font-family: $font
+
+footer
+    font-size: 13px
+
+h2
+    background-color: $red
+    font-family: $title-font
+    font-size: 25px
+    color: white
+    padding: 10px
+
+h3
+    font-family: $title-font
+    color: $red
+
+b
+    color: $red
+
+.banner__btn
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 3%
+
+.btn-red
+    background-color: $red
+    color: white
+    padding: 5px 15px
+    border-radius: 13px
+    transition: 0.5s
+
+    &:hover
+        background-color: #D6D7DB
+        color: white
+        text-decoration: none
+
+.btn-light
+    color: $red
+    font-weight: bold
+    border: 1px solid $red
+    padding: 4px 25px
+    border-radius: 13px
+    transition: 0.5s
+
+    &:hover
+        text-decoration: none
+
+.back-grey
+    background-color: $grey
+
+.modalDatos
+
+    .modal-content
+        background-color: #C44B4F
+
+        .close
+            color: white
+
+.insciption
+    color: white
+
+    .inscription__container
+        border-bottom: 2px solid white
+        margin-bottom: 20px
+
+        .inscription__container--input
+            background: transparent
+            border: none
+            width: 100%
+            color: white
+
+            &::placeholder
+                color: white
+
+@media (max-width: 960px)
+
+    footer
+        font-size: 1rem

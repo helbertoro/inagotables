@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  font-size: 13px;
+}
+
+h2 {
+  background-color: #C44B4F;
+  font-family: "Hind", sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Hind", sans-serif;
+  color: #C44B4F;
+}
+
+b {
+  color: #C44B4F;
+}
+
+.banner__btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3%;
+}
+
+.btn-red {
+  background-color: #C44B4F;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 13px;
+  transition: 0.5s;
+}
+.btn-red:hover {
+  background-color: #D6D7DB;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-light {
+  color: #C44B4F;
+  font-weight: bold;
+  border: 1px solid #C44B4F;
+  padding: 4px 25px;
+  border-radius: 13px;
+  transition: 0.5s;
+}
+.btn-light:hover {
+  text-decoration: none;
+}
+
+.back-grey {
+  background-color: #EBECEE;
+}
+
+.modalDatos .modal-content {
+  background-color: #C44B4F;
+}
+.modalDatos .modal-content .close {
+  color: white;
+}
+
+.insciption {
+  color: white;
+}
+.insciption .inscription__container {
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+.insciption .inscription__container .inscription__container--input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: white;
+}
+.insciption .inscription__container .inscription__container--input::placeholder {
+  color: white;
+}
+
+@media (min-width: 960px) {
+  footer {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
