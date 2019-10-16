@@ -1,13 +1,10 @@
 $font: 'Roboto', sans-serif
 $title-font: 'Hind', sans-serif
-$red: #C44B4F
+$red: #E34A4F
 $grey: #EBECEE
 
 body
     font-family: $font
-
-footer
-    font-size: 13px
 
 h2
     background-color: $red
@@ -20,8 +17,33 @@ h3
     font-family: $title-font
     color: $red
 
+h4
+    font-family: $title-font
+    color: $red
+
 b
     color: $red
+
+.bannerMsj
+    display: inline-block
+    width: 50%
+
+    .bannerMsj__text
+        font-size: 25px
+        line-height: 1.2
+        margin-bottom: 5px
+
+    .bannerMsj__title
+        display: block
+        color: $red
+        font-weight: bold
+        line-height: 1.2
+
+        .bannerMsj__title--one
+            font-size: 25px
+
+        .bannerMsj__title--two
+            font-size: 33px
 
 .banner__btn
     position: absolute
@@ -32,6 +54,7 @@ b
 .btn-red
     background-color: $red
     color: white
+    font-size: 20px
     padding: 5px 15px
     border-radius: 13px
     transition: 0.5s
@@ -43,6 +66,7 @@ b
 
 .btn-light
     color: $red
+    font-size: 20px
     font-weight: bold
     border: 1px solid $red
     padding: 4px 25px
@@ -54,6 +78,7 @@ b
 
 .back-grey
     background-color: $grey
+    border-bottom: 6px solid #E34A4F
 
 .modalDatos
 
@@ -80,6 +105,11 @@ b
                 color: white
 
 @media (max-width: 960px)
+    .btn-red
+        font-size: 13px
+    
+    .btn-light
+        font-size: 13px
 
     footer
         font-size: 1rem
