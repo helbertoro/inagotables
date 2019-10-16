@@ -109,15 +109,7 @@ b {
   color: white;
 }
 
-@media (max-width: 960px) {
-  .btn-red {
-    font-size: 13px;
-  }
-
-  .btn-light {
-    font-size: 13px;
-  }
-
+@media (max-width: 768px) {
   footer {
     font-size: 1rem;
   }
