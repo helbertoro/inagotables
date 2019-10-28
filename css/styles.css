@@ -30,7 +30,7 @@ b {
 }
 .bannerMsj .bannerMsj__text {
   font-size: 25px;
-  line-height: 1.2;
+  line-height: 1.8;
   margin-bottom: 5px;
 }
 .bannerMsj .bannerMsj__title {
@@ -41,6 +41,7 @@ b {
 }
 .bannerMsj .bannerMsj__title .bannerMsj__title--one {
   font-size: 25px;
+  line-height: 1.8;
 }
 .bannerMsj .bannerMsj__title .bannerMsj__title--two {
   font-size: 33px;
@@ -107,6 +108,15 @@ b {
 }
 .insciption .inscription__container .inscription__container--input::placeholder {
   color: white;
+}
+
+.requisitos__img {
+  max-width: 80px;
+}
+
+.msj-idcbis {
+  font-size: 15px;
+  color: #DBDBDB;
 }
 
 @media (max-width: 768px) {
