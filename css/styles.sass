@@ -25,8 +25,11 @@ b
     color: $red
 
 .bannerMsj
-    display: inline-block
-    width: 50%
+    position: absolute
+    right: 11%
+    top: 46%
+    transform: translateY(-50%)
+    width: 33%
 
     .bannerMsj__text
         font-size: 25px
@@ -46,11 +49,11 @@ b
         .bannerMsj__title--two
             font-size: 33px
 
-.banner__btn
+/* .banner__btn
     position: absolute
     left: 50%
     transform: translateX(-50%)
-    bottom: 3%
+    bottom: 3% */
 
 .btn-red
     background-color: $red
@@ -61,8 +64,9 @@ b
     transition: 0.5s
 
     &:hover
-        background-color: #D6D7DB
-        color: white
+        background-color: white
+        color: $red
+        border: 1px solid $grey
         text-decoration: none
 
 .btn-light
@@ -76,6 +80,9 @@ b
 
     &:hover
         text-decoration: none
+        background-color: $red
+        color: white
+        font-weight: normal
 
 .back-grey
     background-color: $grey
@@ -114,7 +121,37 @@ b
     font-size: 15px
     color: #DBDBDB
 
+@media (max-width: 1200px)
+
+    .bannerMsj .bannerMsj__text
+        line-height: 1.2
+    
+    .bannerMsj .bannerMsj__title .bannerMsj__title--one
+        line-height: 1.2
+    
+
+@media (max-width: 992px)
+    
+    .bannerMsj
+        width: 25%
+
+    .bannerMsj .bannerMsj__text
+        line-height: 1.2
+        font-size: 17px
+    
+    .bannerMsj .bannerMsj__title .bannerMsj__title--one
+        font-size: 21px
+    
+    .bannerMsj__title--button
+        font-size: 16px
+
 @media (max-width: 768px)
 
     footer
         font-size: 1rem
+
+    .bannerMsj
+        position: relative
+        width: 80%
+        right: 0
+        left: 10%
